@@ -1,0 +1,19 @@
+{
+  "name": "exif-tool",
+  "main": "lib/index.d.ts",
+  "author": "Nils Knappmeier",
+  "ambientDevDependencies": {
+    "chai": "github:DefinitelyTyped/DefinitelyTyped/chai/chai.d.ts#91989d35b892f1526c35fb1e55219ba05bc5065e",
+    "mocha": "github:DefinitelyTyped/DefinitelyTyped/mocha/mocha.d.ts#d6dd320291705694ba8e1a79497a908e9f5e6617"
+  },
+  "dependencies": {
+    "chai": "registry:npm/chai#3.5.0+20160415060238"
+  },
+  "globalDependencies": {
+    "debug": "registry:dt/debug#0.0.0+20160317120654",
+    "mocha": "registry:dt/mocha#2.2.5+20160317120654",
+    "node": "registry:dt/node#6.0.0+20160602155235",
+    "q": "registry:dt/q#0.0.0+20160417152954",
+    "q-io": "registry:dt/q-io#0.0.0+20160317120654"
+  }
+}
