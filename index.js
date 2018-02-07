@@ -1,4 +1,5 @@
 "use strict";
-var exiftool_1 = require('./src/exiftool');
+Object.defineProperty(exports, "__esModule", { value: true });
+var exiftool_1 = require("./src/exiftool");
 exports.ExifTool = exiftool_1.ExifTool;
 //# sourceMappingURL=index.js.map

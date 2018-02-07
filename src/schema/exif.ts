@@ -1,4 +1,4 @@
-import * as moment from 'moment';
+import * as moment from 'moment'
 
 // Disable variable-name check, since ExifTool provides all properties as uppercase
 /* tslint:disable:variable-name */
@@ -8,7 +8,7 @@ import * as moment from 'moment';
  */
 export interface ExifTags {
 
-    CreateDate?: moment.Moment;
-    DateTimeOriginal?: moment.Moment;
-    TimeZoneOffset?: number | number[];
+  CreateDate?: moment.Moment
+  DateTimeOriginal?: moment.Moment
+  TimeZoneOffset?: number | number[]
 }

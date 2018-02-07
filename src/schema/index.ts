@@ -1,5 +1,5 @@
-import { XMPTags } from './xmp';
-import { ExifTags } from './exif';
+import { XMPTags } from './xmp'
+import { ExifTags } from './exif'
 
 /**
  * Schema for the data returned and accepted by exiftool
@@ -7,10 +7,7 @@ import { ExifTags } from './exif';
  *
  */
 export interface ExifToolData {
-    XMP?: XMPTags;
-    EXIF?: ExifTags;
+  XMP?: XMPTags
+  EXIF?: ExifTags
 
 }
-
-
-

@@ -5,9 +5,8 @@
  */
 export interface XMPTags {
 
-    HierarchicalSubject?: string[];
+  HierarchicalSubject?: string[]
 
-    Identifier?: string;
+  Identifier?: string
 
 }
-

@@ -1,7 +1,7 @@
 const ExifTool = require('../').ExifTool
 const fs = require('fs')
 
-fs.writeFileSync('copy.jpg', fs.readFileSync('with-xmp-identifier.jpg'));
+fs.writeFileSync('copy.jpg', fs.readFileSync('with-xmp-identifier.jpg'))
 const exiftool = new ExifTool('./copy.jpg');
 // Load tags
 exiftool.loadTags(['XMP:Identifier', 'EXIF:DateTimeOriginal'])

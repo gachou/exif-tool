@@ -3,4 +3,6 @@ tmp
 node_modules
 **/*.d.ts
 **/*.js
-!examples/**
+**/*.js.map
+!examples/example.js
+!types/*.d.ts

@@ -1,1 +1,1 @@
-export { ExifTool, ExifToolData } from './src/exiftool';
+export { ExifTool, ExifToolData } from './src/exiftool'
